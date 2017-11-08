@@ -1,0 +1,72 @@
+/*
+ * YOUR STYLES HERE
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Image {
+  width: 100%;
+  height: auto;
+}
+
+.Title--bold {
+  font-size: 2.6em;
+  color: #3C4858;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+.Link--plain {
+  text-decoration: none;
+  color: black;
+}
+
+.Paragraph--pretty {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+.Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 6px;
+
+}
+
+
+.Row--reverse {
+  flex-direction: row-reverse;
+}
+
+.Column {
+  flex: 1 50%;
+  padding: 0 25px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .Column {
+    width: 100%;
+    padding: 0 20px;
+  }
+}

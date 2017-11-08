@@ -1,0 +1,11 @@
+{
+  "link": {
+    "href": "http://www.google.cl",
+    "modifier": "Link--plain"
+  },
+  "title": {
+    "tag": "h2",
+    "content": "Proyecto 1",
+    "modifier": "Title--bold"
+  }
+}

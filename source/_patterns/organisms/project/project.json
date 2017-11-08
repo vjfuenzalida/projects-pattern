@@ -1,0 +1,39 @@
+{
+  "modifier": "Row--reverse",
+  "description": {
+    "tag": "div",
+    "title": {
+      "link": {
+        "href": "http://www.pondera.cl",
+        "modifier": "Link--plain"
+      },
+      "title": {
+        "tag": "h2",
+        "content": "Pondera.cl",
+        "modifier": "Title--bold"
+      }
+    },
+    "paragraphs": [
+      {
+        "tag": "h5",
+        "content": "El proceso de postulación a la educación superior en Chile puede ser un poco confuso. Ya que tras recibir los resultados de la Prueba de Selección Universitaria, el alumno debe conocer sus alternativas y ver cuáles son sus posibilidades de ingreso a la educación superior.",
+        "modifier": "Paragraph--pretty"
+      },
+      {
+        "tag": "h5",
+        "content": "Decidimos desarrollar una plataforma en la que el alumno pueda, con su puntaje obtenido en la PSU, simular su ingreso a las diferentes universidades en Chile y que mediante un algoritmo que calculaba la probabilidad de ingreso, el alumno pueda postular más informado a la educación superior.",
+        "modifier": "Paragraph--pretty"
+      },
+      {
+        "tag": "h5",
+        "content": "Durante los tres primeros días de funcionamiento, la plataforma contó con más de 70.000 simulaciones de 12.000 aproximadamente 12.000 usuarios.",
+        "modifier": "Paragraph--pretty"
+      }
+    ]
+  },
+  "image": {
+    "path": "../../../images/proyecto1.png",
+    "description": "Imagen Proyecto 1"
+  }
+
+}
